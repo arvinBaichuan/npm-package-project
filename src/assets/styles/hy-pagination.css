@@ -1,0 +1,45 @@
+.hy-pagination .el-pagination {
+  padding: 0;
+  font-weight: normal;
+}
+
+.hy-pagination .el-pagination .el-pagination__total {
+  margin: 0 5px 0 0;
+  border-radius: 2px;
+  background-color: #ffffff;
+  border: 1px solid #dcdfe6;
+  color: #5a5e66;
+  padding: 0 10px;
+}
+
+.hy-pagination .el-pagination .el-pagination__sizes {
+  margin: 0;
+}
+
+.hy-pagination .el-pagination .el-pagination__sizes .el-input {
+  margin: 0 0 0 4px;
+}
+
+.hy-pagination .el-pagination .el-select .el-input input {
+  border-radius: 2px;
+  background-color: #ffffff;
+  color: #5a5e66;
+  border: 1px solid #dcdfe6;
+}
+
+.hy-pagination .el-pagination.is-background .btn-next,
+.hy-pagination .el-pagination.is-background .btn-prev,
+.hy-pagination .el-pagination.is-background .el-pager li {
+  margin: 0 3px;
+  background-color: #ffffff;
+  border: 1px solid #dcdfe6;
+}
+
+.hy-pagination
+  .el-pagination.is-background
+  .el-pager
+  li:not(.disabled).active {
+  background-color: #ffffff;
+  color: #5798d9;
+  border-color: #5798d9;
+}

@@ -1,0 +1,47 @@
+.hy-context-menu.v-context {
+  background-color: #ffffff !important;
+  border: 1px solid #e6ebf5 !important;
+  box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1) !important;
+  padding: 1px !important;
+  border-radius: 3px !important;
+  outline: none !important;
+  width: auto !important;
+  min-width: 160px !important;
+
+  &:focus {
+    outline: none !important;
+  }
+
+  ul {
+    padding: 0 !important;
+
+    li {
+      line-height: 30px !important;
+      border-radius: 2px !important;
+      padding: 0 5px !important;
+      font-size: 13px !important;
+      font-weight: normal !important;
+
+      &:hover {
+        background-color: #eef5fb !important;
+        color: #79ade1 !important;
+      }
+
+      &.disabled {
+        color: #818a91 !important;
+        cursor: not-allowed !important;
+
+        &:hover {
+          background-color: #ffffff !important;
+          color: #818a91 !important;
+        }
+      }
+
+      &.divide {
+        border-top: 1px solid #edf0f3 !important;
+        margin: 1px 0 !important;
+        cursor: default !important;
+      }
+    }
+  }
+}

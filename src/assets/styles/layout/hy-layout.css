@@ -1,0 +1,217 @@
+.hy-layout {
+  height: 100%;
+}
+
+.hy-layout__header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 50px;
+  background: #5798d9;
+  z-index: 840;
+}
+
+.hy-layout__header > .el-menu {
+  height: 50px;
+  line-height: 50px;
+  background: #5798d9;
+  padding-right: 1px;
+}
+
+.hy-layout__header > .el-menu .el-menu-item,
+.hy-layout__header > .el-menu .el-submenu .el-submenu__title {
+  height: 50px;
+  line-height: 50px;
+  transition: none;
+  border: none;
+  color: #f9fafc;
+}
+
+.hy-layout__header > .el-menu .el-submenu .el-submenu__title i {
+  color: #f9fafc;
+}
+
+.hy-layout__header
+  > .el-menu
+  .el-submenu
+  .el-submenu__title
+  .el-submenu__icon-arrow {
+  display: none;
+}
+
+.hy-layout__header > .el-menu .el-menu-item:hover,
+.hy-layout__header > .el-menu > .el-submenu .el-submenu__title:hover {
+  background: rgba(255, 255, 255, 0.08);
+  border-bottom: none;
+  transform: none;
+}
+
+.hy-layout__header > .el-menu > .el-submenu.is-opened .el-submenu__title {
+  border: none;
+  transition: none;
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.hy-layout__header > .el-menu > .el-submenu.is-active .el-submenu__title {
+  border: none;
+  transition: none;
+}
+
+.hy-layout__header > .el-menu > .el-submenu .el-menu {
+  top: 55px;
+  left: inherit;
+  right: 0;
+  border-radius: 3px;
+  padding: 1px;
+  transition: none;
+  height: auto;
+  min-width: calc(100% - 4px);
+}
+
+.hy-layout__header > .el-menu > .el-submenu .el-menu .el-menu-item {
+  height: 32px;
+  line-height: 32px;
+  padding: 0;
+}
+
+.hy-layout__header > .el-menu > .el-submenu .el-menu .el-menu-item span {
+  display: block;
+  font-size: 13px;
+  color: #5a5e66;
+  padding: 0 7px;
+  border-radius: 2px;
+}
+
+.hy-layout__header > .el-menu > .el-submenu .el-menu .el-menu-item span:hover {
+  background-color: #eef5fb;
+  color: #79ade1;
+}
+
+.hy-layout__header
+  > .el-menu
+  > .el-submenu
+  .el-menu
+  .el-menu-item
+  span:hover
+  i {
+  color: #79ade1;
+}
+
+.hy-layout__header
+  > .el-menu
+  .el-menu-item.hy-layout__header__menu-item__logo {
+  padding: 0 10px;
+}
+
+.hy-layout__header
+  > .el-menu
+  .el-menu-item.hy-layout__header__menu-item__logo
+  img {
+  height: 34px;
+  margin: 8px 0;
+}
+
+.hy-layout__header
+  > .el-menu
+  .el-menu-item.hy-layout__header__menu-item__title {
+  padding: 0 15px;
+  font-size: 18px;
+  cursor: default;
+  line-height: 50px;
+  color: #f9fafc;
+}
+
+.hy-layout__header
+  > .el-menu
+  .el-menu-item
+  .hy-layout__header__menu-item__version {
+  margin: 0 0 0 5px;
+  font-size: 14px;
+}
+
+.hy-layout__toggle {
+  color: #5798d9;
+  position: fixed;
+  top: 50px;
+  left: 0;
+  width: 160px;
+  height: 45px;
+  line-height: 45px;
+  padding: 0;
+  background: #f1f1f1;
+  border-right: 1px solid #c0ccda;
+  border-bottom: 1px solid #c0ccda;
+  z-index: 835;
+}
+
+.hy-layout__toggle__content {
+  display: block;
+  padding: 0 0 0 18px;
+}
+
+.hy-layout__content {
+  height: calc(100% - 139px);
+  overflow: auto;
+  position: absolute;
+  bottom: 0;
+  width: calc(100% - 160px);
+  right: 0;
+}
+
+.hy-layout__content.hy-layout__content--no-breadcrumb {
+  height: calc(100% - 93px);
+}
+
+.hy-layout__content.hy-layout__content--no-tab {
+  height: calc(100% - 96px);
+}
+
+.hy-layout__content.hy-layout__content--no-breadcrumb.hy-layout__content--no-tab {
+  height: calc(100% - 50px);
+}
+
+.hy-layout__content > .content {
+  padding: 10px;
+  height: calc(100% - 20px);
+}
+
+.hy-layout__content > .content > header {
+  margin-bottom: -3px;
+}
+
+.hy-layout__content > .content > header > .el-row > .el-col > .el-button,
+.hy-layout__content > .content > header > .el-row > .el-col > .el-button-group,
+.hy-layout__content > .content > header > .el-row > .el-col > .el-select,
+.hy-layout__content > .content > header > .el-row > .el-col > .el-dropdown,
+.hy-layout__content > .content > header > .el-row > .el-col > .el-tooltip,
+.hy-layout__content > .content > header > .el-row > .el-col > .el-input {
+  margin-bottom: 5px;
+}
+
+/*
+ * collapse
+ * ----------------------------------------------------*/
+.hy-layout--collapse .hy-layout__toggle {
+  width: 50px;
+}
+
+.hy-layout--collapse .hy-layout__aside {
+  width: 50px;
+}
+
+.hy-layout--collapse .el-submenu__icon-arrow {
+  display: none;
+}
+
+.hy-layout--collapse .hy-layout__content {
+  width: calc(100% - 50px);
+}
+
+@media (max-width: 1024px) {
+  .hy-layout__header
+    > .el-menu
+    .el-menu-item.hy-layout__header__menu-item__title {
+    display: none;
+  }
+}

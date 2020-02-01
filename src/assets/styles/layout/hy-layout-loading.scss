@@ -1,0 +1,38 @@
+.hy-layout__loading {
+  position: absolute;
+  top: 1px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 841;
+  min-width: 360px;
+  border: 1px solid #eeeeee;
+  border-radius: 1px;
+  padding: 5px 10px;
+  text-align: center;
+  background-color: rgba(244, 244, 244, 0.9);
+  color: #777777;
+
+  .circular {
+    height: 19px;
+    width: 19px;
+    animation: loading-rotate 1s linear infinite;
+    vertical-align: bottom;
+
+    .path {
+      animation: loading-dash 1s ease-in-out infinite;
+      stroke-dasharray: 90, 150;
+      stroke-dashoffset: 0;
+      stroke-width: 2;
+      stroke: #777777;
+      stroke-linecap: round;
+    }
+  }
+
+  .hy-layout__loading__message {
+    line-height: 19px;
+    height: 19px;
+    vertical-align: top;
+    margin-left: 10px;
+    display: inline-block;
+  }
+}

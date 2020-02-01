@@ -1,0 +1,108 @@
+.hy-layout__tab {
+  border-bottom: 1px solid #dddddd;
+  position: fixed;
+  z-index: 830;
+  background: #f0f0f0;
+  margin-top: 96px;
+  width: calc(100% - 160px);
+  margin-left: 161px;
+  overflow: hidden;
+  height: 42px;
+  box-shadow: 0 2px 20px 0 rgba(99, 99, 99, 0.1);
+}
+
+.hy-layout--collapse .hy-layout__tab {
+  width: calc(100% - 50px);
+  margin-left: 51px;
+}
+
+.hy-layout__tab .hy-layout__tab__container {
+  position: relative;
+  box-sizing: border-box;
+  padding-right: 44px;
+  width: 100%;
+  height: 100%;
+}
+
+.hy-layout__tab .hy-layout__tab__body {
+  position: absolute;
+  padding: 5px;
+  overflow: visible;
+  white-space: nowrap;
+  transition: left 0.3s ease;
+}
+
+.hy-layout__tab .hy-layout__tab__body .el-tag {
+  border: 1px solid rgba(87, 152, 217, 1);
+  background-color: #ffffff;
+  padding: 0 15px;
+  height: 32px;
+  line-height: 30px;
+  margin-right: 4px;
+  cursor: pointer;
+}
+
+.hy-layout__tab .hy-layout__tab__body .el-tag:last-child {
+  margin-right: 0;
+}
+
+.hy-layout__tab .hy-layout__tab__body .el-tag.el-tag--info {
+  border: 1px solid #e9eaec;
+  color: #495060;
+  background: #ffffff;
+}
+
+.hy-layout__tab .hy-layout__tab__body .el-tag.el-tag--info:hover {
+  border: 1px solid rgba(87, 152, 217, 1);
+  background-color: #ffffff;
+  color: #5798d9;
+}
+
+.hy-layout__tab .hy-layout__tab__body .el-tag .el-icon-close {
+  font-size: 16px;
+  padding: 0;
+  right: -10px;
+}
+
+.hy-layout__tab
+  .hy-layout__tab__body
+  .el-tag.el-tag--info:hover
+  .el-icon-close {
+  color: #5798d9;
+}
+
+.hy-layout__tab
+  .hy-layout__tab__body
+  .el-tag.el-tag--info:hover
+  .el-icon-close:hover {
+  color: #f56c6c;
+}
+
+.hy-layout__tab .hy-layout__tab__body .el-tag .el-icon-close:hover {
+  background: #ffffff;
+  color: #f56c6c;
+}
+
+.hy-layout__tab .hy-layout__tab__dropdown {
+  position: absolute;
+  right: 0;
+  top: 0;
+  box-sizing: border-box;
+  padding: 0;
+  text-align: center;
+  height: 100%;
+  background: #ffffff;
+  -webkit-box-shadow: -3px 0 15px 3px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.1);
+  z-index: 10;
+}
+
+.hy-layout-tab-animation-move {
+  transition: transform 0.3s;
+}
+
+.el-dropdown-menu__item.hy-layout__tab__dropdown-menu__item-active {
+  color: #409eff;
+  border-color: #c6e2ff;
+  background-color: #ecf5ff;
+}

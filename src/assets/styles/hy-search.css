@@ -1,0 +1,36 @@
+.hy-search .el-input__inner {
+  border-radius: 3px;
+}
+
+.hy-search .el-input--suffix .el-input__inner {
+  padding-right: 80px;
+}
+
+.hy-search .el-input__icon {
+  line-height: 30px;
+  cursor: pointer;
+  padding-left: 2px;
+}
+
+.hy-search .el-input__icon:hover {
+  color: #475669;
+}
+
+.hy-search.is-disabled .el-input__icon:hover {
+  color: #c0c4cc;
+}
+
+.hy-search .hy-search__suffix__search {
+  border-left: 1px solid #eff2f7;
+  height: 30px;
+  top: 1px;
+  padding-left: 2px;
+}
+
+.hy-search .hy-search__suffix__close {
+  border-left: 1px solid #eff2f7;
+  height: 30px;
+  padding-left: 2px;
+  top: 1px;
+  right: 37px;
+}
