@@ -8,6 +8,7 @@ export * from "./service";
 export * from "./dto";
 export * from "./ro";
 export * from "./const";
+export * from "./util";
 
 export * from "../components/qunee/vms/HyQuneeToolbarCodeEnum";
 export * from "../components/qunee/vms/HyQuneeWindowPlacementEnum";
