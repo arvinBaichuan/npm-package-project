@@ -3,7 +3,7 @@
  * @author arvin 2018-07-20
  */
 
-import { AppAccountDTO } from "@ytd/fe-core";
+import { AppAccountDTO } from "../../vms/dto/index";
 import { ActionContext, Module } from "vuex";
 import { IStoreModuleAccountState } from "./StoreModuleAccountState";
 

@@ -1,8 +1,8 @@
 import { Component, Vue } from "vue-property-decorator";
-import { AppAccountDTO } from "@ytd/fe-core";
 import { Getter } from "vuex-class";
 import { Menu, MenuItem } from "element-ui";
 import { CreateElement } from "vue";
+import { AppAccountDTO } from "../../vms/dto/index";
 
 @Component<HyLayoutHead>({})
 export class HyLayoutHead extends Vue {

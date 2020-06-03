@@ -3,7 +3,7 @@
  * @author arvin 2018-07-23
  */
 
-import { IdNameDTO, MenuDTO } from "@ytd/fe-core";
+import { IdNameDTO, MenuDTO } from "../../vms/dto/index";
 
 /**
  * 二级菜单

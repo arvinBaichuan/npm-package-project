@@ -6,7 +6,7 @@ import {
   MenuItemGroup as ElMenuItemGroup,
   Submenu as ElSubmenu
 } from "element-ui";
-import { MenuDTO } from "@ytd/fe-core";
+import { MenuDTO } from "../../vms/dto/index";
 import { Component, Prop, Vue } from "vue-property-decorator";
 import { HyLayoutHead } from "./HyLayoutHead";
 import { HyLayoutAside } from "./HyLayoutAside";

@@ -3,7 +3,7 @@
  * @author arvin 2018-07-23
  */
 
-import { AppAccountDTO } from "@ytd/fe-core";
+import { AppAccountDTO } from "../../vms/dto/index";
 
 interface IStoreModuleAccountState {
   /** 应用账户 */

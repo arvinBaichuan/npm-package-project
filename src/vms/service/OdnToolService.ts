@@ -1,12 +1,11 @@
 /**
  * @author lbc 2019-12-10
  */
-import { DTOUtil, PageDTO } from "@ytd/fe-core";
+import { DTOUtil } from "../util/index";
 import { httpClient } from ".";
 import { SYSTEM_CTX_FIBER_TOOL } from "../const";
 import { FiberBindRO, StationMoveRO } from "../ro";
-import { FiberToolStationDTO, FiberToolPoleDTO } from "../dto";
-import { FiberStationMinDTO } from "../dto/FiberStationMinDTO";
+import { FiberToolStationDTO, FiberToolPoleDTO, PageDTO, FiberStationMinDTO } from "../dto/index";
 
 /**
  * 操作接口

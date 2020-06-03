@@ -5,7 +5,7 @@
 import { RO } from "./RO";
 
 /**
- * @backend ytd.fiber.tool.model.StationMoveParam
+ * @backend hy.fiber.tool.model.StationMoveParam
  */
 class StationMoveRO extends RO {
   public stationId: string; //站点ID

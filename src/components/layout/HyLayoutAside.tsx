@@ -2,8 +2,8 @@ import "jquery-slimscroll";
 import { Menu, MenuItem, MenuItemGroup, Submenu } from "element-ui";
 import "../../types/element-ui";
 import { Component, Prop, Vue } from "vue-property-decorator";
-import { MenuDTO } from "@ytd/fe-core";
 import { CreateElement } from "vue";
+import { MenuDTO } from "../../vms/dto/index";
 
 /** 事件 */
 enum EVENTS {

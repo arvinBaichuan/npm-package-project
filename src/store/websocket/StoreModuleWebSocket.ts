@@ -4,7 +4,9 @@
  */
 
 import _ from "lodash";
-import { AuthService, DTOUtil, PubSubDTO, PubsubService } from "@ytd/fe-core";
+import { AuthService, PubsubService } from "../../vms/service/index";
+import { DTOUtil } from "../../vms/util/index";
+import { PubSubDTO } from "../../vms/dto/index";
 import {
   IHandlerConfig,
   IStoreModuleWebSocketState

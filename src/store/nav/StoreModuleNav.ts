@@ -10,7 +10,7 @@ import {
   NavBreadcrumbItem,
   NavMenu
 } from "./StoreModuleNavState";
-import { MenuDTO } from "@ytd/fe-core";
+import { MenuDTO } from "../../vms/dto/index";
 
 const StoreModuleNav: Module<IStoreModuleNavState, any> = {
   state: {

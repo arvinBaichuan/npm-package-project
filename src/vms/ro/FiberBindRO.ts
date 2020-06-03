@@ -7,7 +7,7 @@ import { NamedRO } from "./NamedRO";
 import { RO } from "./RO";
 
 /**
- * @backend ytd.fiber.tool.model.FiberBindParam
+ * @backend hy.fiber.tool.model.FiberBindParam
  */
 class FiberBindRO extends RO {
   public lineId: string; //输电线路ID

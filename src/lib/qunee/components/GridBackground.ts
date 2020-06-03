@@ -1,4 +1,4 @@
-import { DOMUtil } from "@ytd/fe-core";
+import { DOMUtil } from "../../../vms/util/index";
 import { Q } from "../Q";
 
 class GridBackground {

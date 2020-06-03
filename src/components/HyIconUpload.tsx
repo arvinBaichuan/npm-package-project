@@ -2,7 +2,7 @@ import { Component, Prop, Vue, Watch } from "vue-property-decorator";
 import { CreateElement } from "vue";
 import { Button, Upload } from "element-ui";
 import _ from "lodash";
-import { DOMUtil, Util } from "@ytd/fe-core";
+import { DOMUtil, Util } from "../vms/util/index";
 import { Q } from "../lib/qunee";
 
 enum EVENTS {

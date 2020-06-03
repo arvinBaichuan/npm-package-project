@@ -1,6 +1,6 @@
 import { Component, Prop, Vue } from "vue-property-decorator";
 import { Pagination } from "element-ui";
-import { PageFilter } from "@ytd/fe-core";
+import { PageFilter } from "../vms/bo/index";
 import { CreateElement } from "vue";
 
 const EVENTS = {

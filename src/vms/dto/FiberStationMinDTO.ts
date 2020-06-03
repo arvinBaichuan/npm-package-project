@@ -1,6 +1,6 @@
 /**
  * 输电线对端查询结果
- * @backend ytd.fiber.tool.model;
+ * @backend hy.fiber.tool.model;
  * @author lbc 2019-12-17
  */
 

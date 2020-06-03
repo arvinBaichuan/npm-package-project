@@ -4,13 +4,13 @@
  */
 
 import { Message } from "element-ui";
-import { AuthService, HttpClient, PubsubService } from "@ytd/fe-core";
+import { AuthService, HttpClient, PubsubService } from ".";
 import store from "../../store/index";
 /* pdnms/ip */
-/*import { StoreModuleWebSocket } from "@ytd/fe-vue";*/
+/*import { StoreModuleWebSocket } from "../store/index";*/
 
 /**
- * 实例化 @ytd/fe-core 模块提供的公共服务
+ * 实例化 @hy/fe-core 模块提供的公共服务
  * --------------------------------------------------
  */
 
@@ -53,3 +53,40 @@ const pubsubService: any = new PubsubService(httpClient, authService);
 export { httpClient, authService, pubsubService };
 
 export * from "./OdnToolService";
+export * from "./IService";
+
+export * from "./AuthService";
+export * from "./HttpClient";
+
+/*
+ * iam/admin
+ */
+export * from "./iam/admin/AccountService";
+export * from "./iam/admin/ActionPopedomService";
+export * from "./iam/admin/ActionService";
+export * from "./iam/admin/AppAccountRoleService";
+export * from "./iam/admin/AppAccountService";
+export * from "./iam/admin/CommonService";
+export * from "./iam/admin/DomainPopedomService";
+export * from "./iam/admin/MenuPopedomService";
+export * from "./iam/admin/MenuService";
+export * from "./iam/admin/StartService";
+export * from "./iam/admin/OrgService";
+export * from "./iam/admin/RoleService";
+export * from "./iam/admin/PartnersService";
+
+/*
+ * iam/auth
+ */
+export * from "./iam/auth/MeService";
+
+/*
+ * pdnms/gis
+ */
+export * from "./hy/gis/GeomService";
+export * from "./hy/gis/LayerService";
+
+/*
+ * pdnms/pubsub
+ */
+export * from "./hy/pubsub/PubsubService";

@@ -48,6 +48,6 @@ export * from "./components";
  * 默认输出，用于安装插件
  * @example
  *
- *   Vue.use(YtdVue, {});
+ *   Vue.use(HyVue, {});
  */
 export default { install };

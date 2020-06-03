@@ -1,6 +1,6 @@
 /**
  * 输电线末端站点、电房
- * @backend ytd.fiber.tool.model;
+ * @backend hy.fiber.tool.model;
  * @author lbc 2019-12-10
  */
 

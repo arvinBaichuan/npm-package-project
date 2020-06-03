@@ -5,7 +5,7 @@
 import { RO } from "./RO";
 
 /**
- * @backend ytd.framework.param.NameParam
+ * @backend hy.framework.param.NameParam
  */
 class NamedRO extends RO {
   id: string = "";

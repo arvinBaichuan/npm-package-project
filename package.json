@@ -1,7 +1,7 @@
 {
   "name": "@huiye/front-core",
   "author": "arvin",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "@huiye/front-core",
   "scripts": {
     "build": "rimraf ./dist && vue-cli-service build --target lib --name hy-front-core --formats commonjs ./src/index.ts",
@@ -15,7 +15,6 @@
     "@types/lodash": "^4.14.120",
     "@types/screenfull": "^3.3.2",
     "@types/storejs": "^2.0.3",
-    "@ytd/fe-core": "^2.5.21",
     "axios": "^0.18.0",
     "element-ui": "^2.10.0",
     "font-awesome": "^4.7.0",
@@ -31,7 +30,8 @@
     "vue": "^2.6.6",
     "vue-context": "^3.4.0",
     "vue-router": "^3.0.2",
-    "vuex": "^3.1.0"
+    "vuex": "^3.1.0",
+    "invert-color": "^1.5.0"
   },
   "devDependencies": {
     "@types/node": "^10.12.18",

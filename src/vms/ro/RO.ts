@@ -1,6 +1,6 @@
 /**
- * RO (Request Object，请求对象) 基类
- * @author arvin 2017-03-29
+ * 请求参数对象
+ * @author arvin 2017-12-11
  */
 
 class RO {}

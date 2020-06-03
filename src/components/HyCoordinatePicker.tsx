@@ -3,8 +3,8 @@ import { Button, InputNumber, Popover } from "element-ui";
 import * as L from "leaflet";
 import { Map, TileLayer } from "leaflet";
 import { Component, Prop, Vue, Watch } from "vue-property-decorator";
-import { RestResultDTO } from "@ytd/fe-core";
 import { CreateElement } from "vue";
+import { RestResultDTO } from "../vms/dto/index";
 
 /**
  * 经纬坐标选取

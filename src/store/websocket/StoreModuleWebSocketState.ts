@@ -3,7 +3,7 @@
  * @author arvin 2018-07-26
  */
 
-import { KeyValueDTO } from "@ytd/fe-core";
+import { KeyValueDTO } from "../../vms/dto/index";
 
 type IHandlerConfig = KeyValueDTO<number, IHandlerCallback>;
 
