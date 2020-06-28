@@ -1,21 +1,21 @@
 import {
   BreadcrumbItem,
   Menu as ElMenu,
-  MenuItem,
   MenuItem as ElMenuItem,
   MenuItemGroup as ElMenuItemGroup,
   Submenu as ElSubmenu
 } from "element-ui";
-import { MenuDTO } from "../../vms/dto/index";
+import { Action } from "vuex-class";
+import { CreateElement } from "vue";
 import { Component, Prop, Vue } from "vue-property-decorator";
 import { HyLayoutHead } from "./HyLayoutHead";
 import { HyLayoutAside } from "./HyLayoutAside";
 import { HyLayoutBreadcrumb } from "./HyLayoutBreadcrumb";
 import { HyLayoutTab } from "./HyLayoutTab";
 import { HyLayoutLoading } from "./HyLayoutLoading";
-import { CreateElement } from "vue";
 import { TabItem } from "../../store";
-import { Action } from "vuex-class";
+import { MenuDTO } from "../../vms/dto/index";
+
 
 /** 事件 */
 export const EVENTS = {
@@ -150,7 +150,7 @@ export class HyLayout extends Vue {
           collapse={vm.collapse}
           menus={vm.menus}
           active-menu-id={vm.activeMenuId}
-          on-click-menu-item={(menuItem: MenuItem) => {
+          on-click-menu-item={(menuItem: ElMenuItem) => {
             vm.$emit(EVENTS.CLICK_MENU_ITEM, menuItem);
           }}
         />
