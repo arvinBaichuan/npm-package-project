@@ -5,3 +5,4 @@
 
 export * from "./DiffFile";
 export * from "./IInstallOption";
+export * from "./DomainTreeNode";

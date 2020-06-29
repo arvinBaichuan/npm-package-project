@@ -48,6 +48,7 @@ export * from "./iam/admin/RoleDTO";
 export * from "./iam/admin/SecurityQuestionDTO";
 export * from "./iam/admin/StartupDTO";
 export * from "./iam/admin/PartnersDTO";
+export * from "./iam/admin/AugmentMenuPopedomDTO";
 
 /*
  * pdnms/gis

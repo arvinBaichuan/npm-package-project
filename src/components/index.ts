@@ -12,6 +12,7 @@ import {HyMarkdown} from "./markdown/HyMarkdown";
 import {HyQunee} from "./qunee/HyQunee";
 import {HyQuneeWindow} from "./qunee/HyQuneeWindow";
 import {HyIconUpload} from "./HyIconUpload";
+import {HyTripleStatus} from "./HyTripleStatus";
 
 export {
   HyPagination,
@@ -23,5 +24,6 @@ export {
   HyMarkdown,
   HyQunee,
   HyQuneeWindow,
-  HyIconUpload
+  HyIconUpload,
+  HyTripleStatus
 };
