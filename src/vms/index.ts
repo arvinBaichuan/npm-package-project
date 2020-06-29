@@ -9,8 +9,9 @@ export * from "./dto";
 export * from "./ro";
 export * from "./const";
 export * from "./util";
-export * from "./enum";
 export * from "./bo";
+export * from "./vo";
+export * from "./props";
 
 export * from "../components/qunee/vms/HyQuneeToolbarCodeEnum";
 export * from "../components/qunee/vms/HyQuneeWindowPlacementEnum";

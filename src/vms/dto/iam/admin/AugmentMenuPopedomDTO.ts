@@ -1,4 +1,4 @@
-import { MenuPopedomDTO } from "../../../index";
+import { MenuPopedomDTO } from "./MenuPopedomDTO";
 
 export class AugmentMenuPopedomDTO extends MenuPopedomDTO {
   /**
