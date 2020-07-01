@@ -32,23 +32,23 @@ export * from "./framework/ToggleStatusDTO";
 /*
  * iam/admin
  */
-export * from "./iam/admin/AccountDTO";
-export * from "./iam/admin/ActionDTO";
-export * from "./iam/admin/ActionPopedomDTO";
-export * from "./iam/admin/AppAccountDTO";
-export * from "./iam/admin/AppAccountProfileDTO";
-export * from "./iam/admin/AppAccountRoleDTO";
-export * from "./iam/admin/AppDTO";
-export * from "./iam/admin/DomainPopedomDTO";
-export * from "./iam/admin/ExtMetaDTO";
-export * from "./iam/admin/MenuDTO";
-export * from "./iam/admin/MenuPopedomDTO";
-export * from "./iam/admin/OrgDTO";
-export * from "./iam/admin/RoleDTO";
-export * from "./iam/admin/SecurityQuestionDTO";
-export * from "./iam/admin/StartupDTO";
-export * from "./iam/admin/PartnersDTO";
-export * from "./iam/admin/AugmentMenuPopedomDTO";
+export * from "./iam/AccountDTO";
+export * from "./iam/ActionDTO";
+export * from "./iam/ActionPopedomDTO";
+export * from "./iam/AppAccountDTO";
+export * from "./iam/AppAccountProfileDTO";
+export * from "./iam/AppAccountRoleDTO";
+export * from "./iam/AppDTO";
+export * from "./iam/DomainPopedomDTO";
+export * from "./iam/ExtMetaDTO";
+export * from "./iam/MenuDTO";
+export * from "./iam/MenuPopedomDTO";
+export * from "./iam/OrgDTO";
+export * from "./iam/RoleDTO";
+export * from "./iam/SecurityQuestionDTO";
+export * from "./iam/StartupDTO";
+export * from "./iam/PartnersDTO";
+export * from "./iam/AugmentMenuPopedomDTO";
 
 /*
  * pdnms/gis

@@ -4,7 +4,7 @@
  */
 
 import { Message } from "element-ui";
-import { AuthService, HttpClient, PubsubService } from ".";
+import { AuthService, HttpClient } from ".";
 import store from "../../store/index";
 /* pdnms/ip */
 /*import { StoreModuleWebSocket } from "../store/index";*/
@@ -29,7 +29,6 @@ const httpClient: HttpClient = new HttpClient(
   }
 );
 
-const pubsubService: any = new PubsubService(httpClient, authService);
 
 /*
  * 因为 vuex store 和 AuthService 相互依赖，
@@ -50,35 +49,30 @@ const pubsubService: any = new PubsubService(httpClient, authService);
 `ws://${window.location.host}/api/pubsub/1.0/connect`  生产环境
 */
 
-export { httpClient, authService, pubsubService };
+export { httpClient, authService };
 
-export * from "./OdnToolService";
 export * from "./IService";
 
 export * from "./AuthService";
 export * from "./HttpClient";
 
 /*
- * iam/admin
+ * iam
  */
-export * from "./iam/admin/AccountService";
-export * from "./iam/admin/ActionPopedomService";
-export * from "./iam/admin/ActionService";
-export * from "./iam/admin/AppAccountRoleService";
-export * from "./iam/admin/AppAccountService";
-export * from "./iam/admin/CommonService";
-export * from "./iam/admin/DomainPopedomService";
-export * from "./iam/admin/MenuPopedomService";
-export * from "./iam/admin/MenuService";
-export * from "./iam/admin/StartService";
-export * from "./iam/admin/OrgService";
-export * from "./iam/admin/RoleService";
-export * from "./iam/admin/PartnersService";
+export * from "./iam/AccountService";
+export * from "./iam/ActionPopedomService";
+export * from "./iam/ActionService";
+export * from "./iam/AppAccountRoleService";
+export * from "./iam/AppAccountService";
+export * from "./iam/CommonService";
+export * from "./iam/DomainPopedomService";
+export * from "./iam/MenuPopedomService";
+export * from "./iam/MenuService";
+export * from "./iam/StartService";
+export * from "./iam/OrgService";
+export * from "./iam/RoleService";
+export * from "./iam/PartnersService";
 
-/*
- * iam/auth
- */
-export * from "./iam/auth/MeService";
 
 /*
  * pdnms/gis

@@ -1,7 +1,7 @@
 {
   "name": "@huiye/front-core",
   "author": "arvin",
-  "version": "0.0.25",
+  "version": "0.0.26",
   "description": "@huiye/front-core",
   "scripts": {
     "build": "rimraf ./dist && vue-cli-service build --target lib --name hy-front-core --formats commonjs ./src/index.ts",
