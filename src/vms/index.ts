@@ -12,6 +12,8 @@ export * from "./util";
 export * from "./bo";
 export * from "./vo";
 export * from "./props";
+export * from "./decorator";
+export * from "./enum";
 
 export * from "../components/qunee/vms/HyQuneeToolbarCodeEnum";
 export * from "../components/qunee/vms/HyQuneeWindowPlacementEnum";
